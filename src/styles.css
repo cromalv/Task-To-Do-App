@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+/* Modo oscuro */
+.dark-mode {
+    background: #121212;
+    color: #ffffff;
+  }
+  
+  .dark-mode .todo-container {
+    background: #000000;
+    color: rgb(255, 255, 255);
+  }
+  
+  .dark-mode .task-input input {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 1px solid #000000;
+  }
+  
+  .dark-mode .task-input button {
+    background: #ffffff;
+  }
+  
+  .dark-mode li {
+    background: #929292;
+    color: rgb(0, 0, 0);
+  }
+  
+  .dark-mode .delete-btn {
+    background: #ff4444;
+  }
+  
+  /* Botón de cambio de tema */
+  .theme-toggle {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+  }
+  
+  .theme-toggle button {
+    background: #000000;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
